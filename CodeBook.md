@@ -2,11 +2,9 @@
 
 ## variables
 
-### subject
+### Subject: experiment participant 
 
-experiment participant (id)
-
-### activity
+### Activities
 
 | id |              name |
 |---:|:-----------------:|
@@ -17,9 +15,7 @@ experiment participant (id)
 |  5|           STANDING|
 |  6|            LAYING|
 
-### features
-
-Column numbers are extracted from the original data file, `UCI HAR Dataset/features.txt`
+### Features
 
 | feature column number | feature column name |
 |----------------------:|:--------------------:|
@@ -90,10 +86,7 @@ Column numbers are extracted from the original data file, `UCI HAR Dataset/featu
 | 542| fBodyBodyGyroJerkMag-mean() |
 | 543| fBodyBodyGyroJerkMag-std() |
 
-### Note:
 
-I chose to exclude `meanFreq()` quantities, since they are not the same type of measurement as `mean()` (if I understand correctly the original README.md) 
-         
          
          
          
